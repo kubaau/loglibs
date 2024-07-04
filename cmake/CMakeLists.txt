@@ -13,4 +13,4 @@ add_executable(${PROJECT_NAME} ${SRC_LIST})
 
 set(CMAKE_CXX_FLAGS "-Wall -Wextra -Werror -pedantic -g -std=c++20")
 
-target_link_libraries(${PROJECT_NAME} spdlog::spdlog glog::glog Boost::log)
+target_link_libraries(${PROJECT_NAME} Boost::log glog::glog spdlog::spdlog)
