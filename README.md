@@ -1,4 +1,4 @@
-Playground for personal experiments with logging frameworks, created circa 2022.
+Playground for personal experiments with logging frameworks, created circa 2021.
 
 `git clone --recursive git@github.com:kubaau/loglibs.git`
 
